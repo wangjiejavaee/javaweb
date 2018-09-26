@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>添加图书</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/admin.css"/>
+</head>
+<body>
+    <form action="/GoodGart/admin?type=insert" method="post" >
+        <table width="425px" height="121" border="0"   cellpadding="0" cellspacing="0">
+            <tbody>
+            <tr>
+                <td></td><td>插入图书</td>
+            </tr>
+            <tr>
+                <td width="116" align="right">书名：</td>
+                <td width="684" align="left"><input text="" placeholder="书名" name="name"></td>
+            </tr>
+            <tr>
+                <td align="right">作者：</td>
+                <td align="left"><input text="" placeholder="作者" name="author"></td>
+            </tr>
+            <tr>
+                <td align="right">价格：</td>
+                <td align="left"><input text="" placeholder="价格" name="price"></td>
+            </tr>
+            <tr>
+                <td align="right">标题：</td>
+                <td align="left"><input text="" placeholder="标题" name="title"></td>
+            </tr>
+            <tr>
+                <td align="right">介绍：</td>
+                <td align="left"><textarea placeholder="介绍" name="intro"></textarea>
+            </tr>
+            <tr>
+                <td></td><td><input type="submit" value="submit"/></td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
